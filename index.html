@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#050914">
+  <meta name="description" content="Linkwright is an early-access computational molecular research workspace for academic researchers exploring molecular structures, reaction evidence and hybrid-design hypotheses.">
+  <title>Linkwright — Molecular research, connected</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="ambient ambient-a"></div><div class="ambient ambient-b"></div>
+  <header class="nav wrap">
+    <a class="brand" href="#top" aria-label="Linkwright home"><span class="brand-mark">L<span>✳</span></span><span>LINKWRIGHT</span></a>
+    <nav><a href="#platform">Platform</a><a href="#workflow">Workflow</a><a href="#pilot">Pilot access</a><a href="#faq">FAQ</a></nav>
+    <a class="nav-cta" href="#contact">Request a demo <span>↗</span></a>
+    <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+  </header>
+
+  <main id="top">
+    <section class="hero wrap">
+      <div class="hero-copy">
+        <div class="eyebrow"><i></i> COMPUTATIONAL MOLECULAR RESEARCH WORKSPACE</div>
+        <h1>Make molecular<br><span class="gradient">possibilities</span> easier<br>to explore.</h1>
+        <p class="hero-lede">A connected workspace for researchers exploring molecular structures, reaction evidence and hybrid-design hypotheses — with transparent computational workflows.</p>
+        <div class="hero-actions"><a class="button primary" href="#contact">Request early access <span>↗</span></a><a class="button secondary" href="#platform">Explore the platform <span>↓</span></a></div>
+        <div class="hero-proof"><span class="pulse"></span> FOUNDING RESEARCHER PILOT <b>·</b> LIMITED EARLY ACCESS</div>
+      </div>
+      <div class="molecule-stage" aria-label="Abstract molecular network illustration">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="orbit orbit-three"></div>
+        <svg class="molecule" viewBox="0 0 560 500" role="img" aria-label="Connected molecular nodes">
+          <defs><radialGradient id="core"><stop stop-color="#a7fff4"/><stop offset=".45" stop-color="#27d9d0"/><stop offset="1" stop-color="#1674c8"/></radialGradient><filter id="glow"><feGaussianBlur stdDeviation="8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+          <g class="bonds"><path d="M280 245 170 145 82 210 115 330 230 385 350 350 435 245 380 115 280 245 170 145 380 115 435 245 280 245 350 350 230 385 115 330 82 210" /><path d="M170 145 230 385M82 210 280 245M380 115 350 350M115 330 435 245"/></g>
+          <g filter="url(#glow)"><circle class="node n1" cx="280" cy="245" r="25"/><circle class="node" cx="170" cy="145" r="15"/><circle class="node" cx="82" cy="210" r="10"/><circle class="node" cx="115" cy="330" r="13"/><circle class="node" cx="230" cy="385" r="12"/><circle class="node" cx="350" cy="350" r="17"/><circle class="node" cx="435" cy="245" r="12"/><circle class="node" cx="380" cy="115" r="18"/></g>
+          <g class="tiny"><circle cx="470" cy="95" r="4"/><circle cx="40" cy="115" r="3"/><circle cx="300" cy="60" r="4"/><circle cx="500" cy="350" r="3"/><circle cx="165" cy="450" r="4"/></g>
+        </svg>
+        <div class="float-tag tag-a"><span class="tag-dot"></span> STRUCTURE INPUT <b>SDF · SMILES</b></div>
+        <div class="float-tag tag-b"><span class="tag-dot"></span> EVIDENCE LAYER <b>TRACEABLE</b></div>
+        <div class="stage-caption">MOLECULAR NETWORK / CONCEPTUAL VISUAL</div>
+      </div>
+      <div class="hero-bottom"><span>01 / RESEARCH WORKFLOW</span><span>DESIGNED FOR ACADEMIC EXPLORATION</span><span>SCROLL TO DISCOVER ↓</span></div>
+    </section>
+
+    <section class="ticker"><div>STRUCTURE ANALYSIS <b>✳</b> REACTION EVIDENCE <b>✳</b> HYBRID-DESIGN HYPOTHESES <b>✳</b> REPRODUCIBLE WORKFLOWS <b>✳</b> STRUCTURE ANALYSIS <b>✳</b></div></section>
+
+    <section class="section wrap" id="platform">
+      <div class="section-head"><div><div class="eyebrow">01 / THE PLATFORM</div><h2>From scattered tools<br>to a <span class="gradient">connected workflow.</span></h2></div><p>Linkwright is being developed to help academic teams organise early-stage computational molecular exploration in one accessible research workspace.</p></div>
+      <div class="feature-grid">
+        <article class="feature-card"><div class="feature-icon">⌘</div><div class="card-index">01 — INPUT</div><h3>Structure-first workflows</h3><p>Work with molecular structures supplied as SDF or SMILES where supported, with a clearer path from input to computational exploration.</p><div class="card-foot">SDF / SMILES <span>↗</span></div></article>
+        <article class="feature-card"><div class="feature-icon">◈</div><div class="card-index">02 — ANALYSIS</div><h3>Molecular properties</h3><p>Explore calculated molecular descriptors and structure-related information to support comparison and research triage.</p><div class="card-foot">COMPUTATIONAL DESCRIPTORS <span>↗</span></div></article>
+        <article class="feature-card"><div class="feature-icon">⟷</div><div class="card-index">03 — EVIDENCE</div><h3>Reaction evidence search</h3><p>Search indexed reaction-template records and inspect curated reaction hypotheses without treating every template as a proven synthesis.</p><div class="card-foot">TEMPLATE EXPLORATION <span>↗</span></div></article>
+        <article class="feature-card"><div class="feature-icon">✳</div><div class="card-index">04 — DESIGN</div><h3>Hybrid-design exploration</h3><p>Explore candidate molecular graph hypotheses from compatible inputs and review the assumptions and limitations behind each result.</p><div class="card-foot">HYPOTHESIS GENERATION <span>↗</span></div></article>
+        <article class="feature-card"><div class="feature-icon">▤</div><div class="card-index">05 — REPORTING</div><h3>Research-ready records</h3><p>Organise computational outputs and supporting notes into a more traceable workflow for further expert review.</p><div class="card-foot">WORKFLOW DOCUMENTATION <span>↗</span></div></article>
+        <article class="feature-card feature-card-cta"><div class="eyebrow">BUILT WITH RESEARCHERS</div><h3>Your workflow.<br>Your feedback.</h3><p>Join the founding pilot and help prioritise the features that matter in real academic research.</p><a href="#contact">Talk to the team <span>↗</span></a></article>
+      </div>
+    </section>
+
+    <section class="workflow-section" id="workflow"><div class="wrap section">
+      <div class="eyebrow">02 / HOW IT FITS TOGETHER</div><h2>A clearer path from<br><span class="gradient">molecule to hypothesis.</span></h2>
+      <div class="workflow-line">
+        <div class="step"><div class="step-no">01</div><div class="step-symbol">⌁</div><h3>Bring your structures</h3><p>Start with supported SDF or SMILES inputs.</p></div>
+        <div class="step"><div class="step-no">02</div><div class="step-symbol">◉</div><h3>Explore the evidence</h3><p>Review molecular features and relevant reaction-template evidence.</p></div>
+        <div class="step"><div class="step-no">03</div><div class="step-symbol">✳</div><h3>Generate hypotheses</h3><p>Inspect computational candidate structures and validation flags.</p></div>
+        <div class="step"><div class="step-no">04</div><div class="step-symbol">▤</div><h3>Review and document</h3><p>Record assumptions and take candidates to expert assessment.</p></div>
+      </div>
+      <div class="note"><span>i</span><p>Workflow availability depends on the current pilot build and input compatibility. A generated molecular graph is a computational hypothesis, not proof of a feasible reaction or experimentally verified compound.</p></div>
+    </div></section>
+
+    <section class="audience wrap"><div class="section-head"><div><div class="eyebrow">03 / WHO IT'S FOR</div><h2>Designed around<br><span class="gradient">research questions.</span></h2></div><p>Early access is intended for people who want to explore, evaluate and improve computational molecular workflows.</p></div>
+      <div class="audience-list"><div><span>01</span> MSc & PhD researchers <b>↗</b></div><div><span>02</span> Computational biology groups <b>↗</b></div><div><span>03</span> Antimicrobial research teams <b>↗</b></div><div><span>04</span> Academic biotechnology & pharma labs <b>↗</b></div></div>
+    </section>
+
+    <section class="pilot-section" id="pilot"><div class="wrap section">
+      <div class="section-head"><div><div class="eyebrow">04 / FOUNDING RESEARCHER PILOT</div><h2>Help shape what<br><span class="gradient">comes next.</span></h2></div><p>Introductory pilot offers for early users. Final scope, access duration and usage limits are agreed before payment.</p></div>
+      <div class="pricing-grid">
+        <article class="price-card"><div class="plan">INDIVIDUAL</div><div class="price">₹499<span>/ pilot</span></div><p>For one researcher exploring supported workflows.</p><ul><li>Guided onboarding</li><li>Access to agreed working features</li><li>Feedback and support channel</li></ul><a href="#contact" class="button secondary full">Enquire about this plan ↗</a></article>
+        <article class="price-card highlighted"><div class="popular">FOUNDING PLUS</div><div class="plan">RESEARCHER PLUS</div><div class="price">₹999<span>/ pilot</span></div><p>For active researchers who need a broader guided evaluation.</p><ul><li>Everything in Individual</li><li>Expanded agreed usage</li><li>Research workflow feedback session</li></ul><a href="#contact" class="button primary full">Enquire about this plan ↗</a></article>
+        <article class="price-card"><div class="plan">SMALL LAB</div><div class="price">₹2,499<span>/ pilot</span></div><p>For a small academic team evaluating Linkwright together.</p><ul><li>Team onboarding discussion</li><li>Agreed pilot seats and usage</li><li>Consolidated feedback session</li></ul><a href="#contact" class="button secondary full">Enquire about this plan ↗</a></article>
+      </div>
+      <p class="pricing-disclaimer">Pilot prices are proposed introductory offers, not an automatic subscription. No payment is collected on this website. Availability and feature scope must be confirmed in writing before any payment.</p>
+    </div></section>
+
+    <section class="limits wrap"><div class="limit-mark">!</div><div><div class="eyebrow">SCIENTIFIC TRANSPARENCY</div><h2>Clear about what computation can — and cannot — tell you.</h2><p>Linkwright supports computational exploration. Sanitised structures and generated product graphs do not establish synthetic feasibility, selectivity, yield, stability, biological activity, safety or therapeutic value. Reaction conditions and candidate structures require qualified expert review and experimental validation. Docking and molecular-dynamics services will only be offered when their operation is verified for the relevant pilot environment.</p></div></section>
+
+    <section class="faq-section" id="faq"><div class="wrap section"><div class="eyebrow">05 / QUESTIONS</div><h2>Before you <span class="gradient">join.</span></h2><div class="faq-list">
+      <details><summary>Is Linkwright a fully released commercial SaaS? <span>+</span></summary><p>No. Linkwright is currently being offered as a limited early-access pilot while the platform and its operational capabilities continue to be tested.</p></details>
+      <details><summary>Does Linkwright guarantee that a hybrid can be synthesised? <span>+</span></summary><p>No. Hybrid-design outputs are computational hypotheses. A qualified chemist must assess reaction feasibility, conditions, selectivity and safety, followed by experimental validation.</p></details>
+      <details><summary>Are docking and molecular dynamics included? <span>+</span></summary><p>Only where the relevant tools are operationally verified for the specific pilot environment and scope. Ask for a feature demonstration before agreeing to a pilot.</p></details>
+      <details><summary>How does payment work? <span>+</span></summary><p>This website does not collect payments. Pilot scope and price are confirmed directly first; payment instructions are provided only after both parties agree.</p></details>
+      <details><summary>Can my laboratory request a demonstration? <span>+</span></summary><p>Yes. Use the enquiry form below and describe your research area and the workflow you want to evaluate.</p></details>
+    </div></div></section>
+
+    <section class="contact-section" id="contact"><div class="wrap contact-grid"><div><div class="eyebrow">06 / GET IN TOUCH</div><h2>Let's explore<br><span class="gradient">what you can build.</span></h2><p>Tell us what you work on. We'll follow up about pilot suitability, a guided demonstration and the features currently available.</p><div class="contact-aside"><span class="pulse"></span> FOUNDING RESEARCHER ENQUIRIES OPEN</div></div>
+      <form id="enquiry-form" class="contact-form">
+        <label>Your name<input name="name" required placeholder="Full name"></label>
+        <label>Institution / organisation<input name="institution" placeholder="University or laboratory"></label>
+        <label>Email address<input name="email" type="email" required placeholder="you@institution.edu"></label>
+        <label>Research area<select name="area"><option>Computational biology</option><option>Antimicrobial research</option><option>Drug discovery</option><option>Biotechnology</option><option>Other</option></select></label>
+        <label>What would you like to explore?<textarea name="message" rows="4" placeholder="Briefly describe your research workflow or question."></textarea></label>
+        <button class="button primary full" type="submit">Prepare enquiry email <span>↗</span></button>
+        <p class="form-note">Your email app will open with a prepared message. This demo form does not upload or store your information.</p>
+        <div id="form-status" role="status" aria-live="polite"></div>
+      </form>
+    </div></section>
+  </main>
+  <footer class="footer"><div class="wrap footer-inner"><a class="brand" href="#top"><span class="brand-mark">L<span>✳</span></span><span>LINKWRIGHT</span></a><p>Computational molecular research, connected.</p><div>© <span id="year"></span> Linkwright · Early-access pilot</div></div><div class="wrap footer-legal">This website describes an early-stage research software pilot. It is not medical advice, a synthesis service, or a claim of experimentally validated drug discovery.</div></footer>
+  <script src="script.js"></script>
+</body></html>
